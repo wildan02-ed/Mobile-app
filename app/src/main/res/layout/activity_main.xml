@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_move_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Satu"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_move_activity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Dua"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_move_activity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Tiga"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
